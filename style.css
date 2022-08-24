@@ -1,0 +1,75 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'ROBOTO SLAB';
+    background-color: black;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding: 1rem;
+    margin: 0 1rem;
+    color: rgb(230, 105, 105);
+    font-size: 1.2rem;
+    
+}
+li:hover{
+    color: rgb(202, 69, 69);
+    cursor: pointer;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.letters {
+    width: 40rem;
+    flex-flow: column-reverse;
+    position: relative;
+    left: 60rem;
+    top: 25rem;
+}
+.letters h1{
+    color: rgb(230, 105, 105);
+    font-size: 4rem;
+}
+.letters h2{
+    color: white;
+    font-size: 3rem;
+}
+.letters p {
+    color: white;
+    text-align: right;
+    font-style: italic;
+}
+
+.buttonNav{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.5rem;
+    
+}
+.buttonNav button{
+    padding: 1rem;
+    background-color: rgb(230, 105, 105);
+    border-radius: 2rem;
+    width: 10rem;
+    font-size: 1rem;
+    text-align: center;
+    color: antiquewhite;
+}
+.buttonNav button:hover{
+    background-color: rgb(202, 69, 69);
+}
+header{
+    height: calc(90vh - 1rem);
+    background: no-repeat center/cover url('https://images01.nicepage.com/1e/33/1e337aca6926e6390da9170be3bb09db.png');
+}
