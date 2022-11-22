@@ -48,12 +48,12 @@ header {
     width: 100%;
 }
 .letters {
-    width: 30%;
+    width: 35%;
     position: absolute;
-    margin-top: 15rem;
-    margin-right: 20rem;
     right: 1rem;
     padding: 1rem;
+    top: 30%;
+    margin-right: 10rem;
 
 }
 
@@ -82,15 +82,18 @@ header {
 }
 
 .buttons-price button {
-    padding: 1rem;
     background-color: rgb(202, 69, 69);
     border-radius: 2rem;
     width: 10rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
     font-size: 1rem;
-    text-align: center;
-    color: antiquewhite;
+    color: white;
     cursor: pointer;
     border: none;
+    font-family: inherit;
+    text-transform: uppercase;
 }
 
 .buttonNav button:hover {
@@ -118,7 +121,7 @@ header {
 
 
 #produtos {
-    width: 90rem;
+    max-width: 90rem;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -132,14 +135,14 @@ header {
 }
 
 .headphone img {
-    width: 50rem;
+    max-width: 50rem;
 
 }
 
 .text-produtos {
-    margin-left: 15rem;
+    margin-left: 5rem;
     margin-top: 5rem;
-    width: 40rem;
+    max-width: 40rem;
     height: 25rem;
     padding: 1rem;
 }
@@ -163,15 +166,15 @@ header {
     padding: 1rem;
     margin-left: auto;
     margin-right: auto;
-    width: 90rem;
+    max-width: 90rem;
     height: 50rem;
     display: flex;
     justify-content: center;
 }
 
 .text-information {
-    width: 40rem;
-    margin-left: 15rem;
+    max-width: 40rem;
+    margin-right: 3rem;
     height: 25rem;
     margin-top: 16rem; 
 }
@@ -214,6 +217,30 @@ header {
     background-image: url(/images/a6c35c62bce47208591fd73322842059.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50%;
+    background-position: 50% 50%;
+    height: 60%;
     width: 100%;
+
+}
+.text-music {
+    width: 20%;
+    position: absolute;
+    right: 1rem;
+    margin-right: 25rem;
+    margin-top: 10rem;
+}
+
+.text-music h1 {
+    font-size: 3rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.text-music h3 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.text-music p {
+    font-size: 0.875rem;
+    font-style: italic;
 }
