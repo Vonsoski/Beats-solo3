@@ -1,0 +1,56 @@
+@media (max-width: 990px) {
+  header {
+    width: 100%;
+    height: 150%;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul {
+    display: none;
+  }
+  nav img {
+    margin-right: 20rem;
+    width: 10%;
+  }
+  .letters {
+    top: 22%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    width: 80%;
+    height: 100%;
+    line-height: 1.1;
+  }
+  .letters p {
+    width: 110%;
+    margin-top: 1rem;
+    line-height: 1.8;
+  }
+  .letters h2 {
+    width: 100%;
+    font-size: 3rem;
+  }
+  #produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .text-produtos {
+    width: 100%;
+    height: 100%;
+    margin: 4rem;
+  }
+  .headphone img {
+    max-width: 90%;
+    margin: 1rem;
+  }
+  .informations {
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+  }
+}

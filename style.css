@@ -46,7 +46,7 @@ header {
   width: 100%;
 }
 .letters {
-  width: 35%;
+  width: 35rem;
   position: absolute;
   right: 1rem;
   padding: 1rem;
