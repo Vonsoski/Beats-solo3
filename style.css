@@ -22,6 +22,7 @@ li {
   margin: 0 1rem;
   color: rgb(223, 48, 48);
   font-size: 1.2rem;
+  font-family: ARIAL;
 }
 
 li:hover {
@@ -103,7 +104,7 @@ header {
 }
 
 .buttons-more button {
-  background-color: rgb(202, 69, 69);
+  background-color: rgb(252, 0, 0);
   border-radius: 2rem;
   width: 10rem;
   display: flex;
@@ -115,7 +116,9 @@ header {
   font-family: inherit;
   text-transform: uppercase;
 }
-
+.buttons-more button:hover{
+  background-color: rgb(218, 83, 83);
+}
 #produtos {
   max-width: 90rem;
   margin-left: auto;
@@ -215,11 +218,8 @@ header {
 .text-music {
   width: 20rem;
   position: absolute;
-  right: 1rem;
-  margin-right: 22rem;
+  left: 70rem;
   margin-top: 5rem;
-  border: 1px solid red;
-  margin: 0;
 }
 
 .text-music h1 {
@@ -240,6 +240,7 @@ header {
 .produtos-info {
   width: 100%;
   height: 30rem;
+  border: 1px solid red;
 }
 .titulo-produtos {
   flex-direction: column;
@@ -254,6 +255,8 @@ header {
 .sessao-produtos {
   display: flex;
   justify-content: center;
+  border: 1px solid blue;
+  margin: 2rem;
 }
 
 .img-texto {
@@ -266,15 +269,35 @@ header {
 }
 
 
-@media (max-width: 991px){
-.more-info{
-    background-position: 67.33% 50%;
- }
- .text-music{
-    width: 253px;
-    min-height: 400px;
-    margin-bottom: -14px;
-    margin: 0;
-    margin-left: 10rem;
- }
+.specification{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+
+}
+.info-especifico{
+  padding: 0;
+  margin-top: 4rem;
+  position: relative;
+  width: 30rem;
+  line-height: 1.5;
+}
+.info-especifico ol li {
+  list-style-type: disc;
+  color: black;
+  font-size: 1rem;
+  padding: 5px;
+}
+.info-especifico h1{
+  font-size: 3rem;
+}
+.info-especifico h2{
+  font-weight: normal;
+}
+.img-especificacao img{
+  padding:0;
+ width:40rem;
 }

@@ -1,4 +1,4 @@
-@media (max-width: 990px) {
+@media screen and (max-width: 990px) {
   header {
     width: 100%;
     height: 150%;
@@ -54,3 +54,17 @@
     flex-direction: column;
   }
 }
+
+
+@media (max-width: 991px){
+  .more-info{
+      background-position: 67.33% 50%;
+   }
+   .text-music{
+      width: 253px;
+      min-height: 400px;
+      margin-bottom: -14px;
+      margin: 0;
+      margin-left: 10rem;
+   }
+  }
